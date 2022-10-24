@@ -1,6 +1,6 @@
 :root {
-    --background: rgb(224, 234, 247);
-    --header-background: rgb(254, 251, 245);
+    --background: antiquewhite;
+    --header-background: lightpink;
     --primary-font: Corbel, 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans',
         'Bitstream Vera Sans', 'Liberation Sans', Verdana, 'Verdana Ref', sans-serif;
 }
@@ -16,7 +16,7 @@ header {
     position: sticky;
     top: 0;
     padding: 15px;
-    height: 80px;
+    height: 50px;
 
     display: flex;
     align-items: center;
@@ -32,4 +32,9 @@ header .logo {
 
 main {
     padding: 20px;
+}
+
+#muffinHeader {
+    height: 250px;
+    width: 100%;
 }
