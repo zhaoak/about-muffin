@@ -1,8 +1,7 @@
 :root {
     --background: antiquewhite;
     --header-background: lightpink;
-    --primary-font: Corbel, 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans',
-        'Bitstream Vera Sans', 'Liberation Sans', Verdana, 'Verdana Ref', sans-serif;
+    --primary-font: cursive, sans-serif;
 }
 
 body {
@@ -10,13 +9,18 @@ body {
     background: var(--background);
     display: grid;
     grid-template-rows: auto 1fr;
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
 }
 
 header {
     position: sticky;
+    padding-left: 30px;
     top: 0;
-    padding: 15px;
     height: auto;
+    width: 100%;
 
     display: flex;
     align-items: center;
