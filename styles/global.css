@@ -1,8 +1,7 @@
 :root {
-    --background: rgb(224, 234, 247);
-    --header-background: rgb(254, 251, 245);
-    --primary-font: Corbel, 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans',
-        'Bitstream Vera Sans', 'Liberation Sans', Verdana, 'Verdana Ref', sans-serif;
+    --background: antiquewhite;
+    --header-background: lightpink;
+    --primary-font: cursive, sans-serif;
 }
 
 body {
@@ -10,13 +9,18 @@ body {
     background: var(--background);
     display: grid;
     grid-template-rows: auto 1fr;
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
 }
 
 header {
     position: sticky;
+    padding-left: 15px;
     top: 0;
-    padding: 15px;
-    height: 80px;
+    height: 50px;
+    width: 100%;
 
     display: flex;
     align-items: center;
@@ -32,4 +36,9 @@ header .logo {
 
 main {
     padding: 20px;
+}
+
+#muffinHeader {
+    height: 250px;
+    width: 1000px;
 }
